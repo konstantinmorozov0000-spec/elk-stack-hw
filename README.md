@@ -13,8 +13,6 @@ curl -X GET 'localhost:9200/_cluster/health?pretty'
 ### 📸 Скриншот 1: **Elasticsearch cluster health**
 ![1](screenshots/elasticsearch-health.png)
 
-Разместите файл: `screenshots/elasticsearch-health.png`
-
 > На скриншоте отображается состояние кластера Elasticsearch. Поле `cluster_name` подтверждает, что параметр был успешно изменён.
 
 ---
@@ -25,7 +23,7 @@ curl -X GET 'localhost:9200/_cluster/health?pretty'
 Перейти в интерфейс Dev Tools:
 
 ```
-http://<IP>:5601/app/dev_tools#/console
+http://localhost:5601/app/dev_tools#/console
 ```
 
 Выполнить запрос:
